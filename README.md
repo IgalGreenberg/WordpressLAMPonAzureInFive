@@ -14,7 +14,7 @@ Install wordpress on lamp:
 Launch bash:
 ```bash
 az login
-git clone https://github.com/IgalGreenberg/OnAzureInFiveMinutes.git
+git clone https://github.com/IgalGreenberg/WordpressLAMPonAzureInFive.git
 cd OnAzureInFiveMinutes/
 ```
 Edit LampWordPress.sh and enter strong values for:
