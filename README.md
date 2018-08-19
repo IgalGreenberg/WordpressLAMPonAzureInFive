@@ -1,5 +1,9 @@
 # WordpressLAMPonAzureInFive
 Get an Azure VM up and running with WordPress on LAMP in five minutes. The VM would have Ubuntu 16, Apache 2, MariaDB, PHP 7.0 and latest wordpress.
+I have used several days and websites to create this entry.  The biggest thanks goes to:
+1. https://docs.microsoft.com/en-us/azure/virtual-machines/linux/tutorial-lemp-stack
+2. https://websiteforstudents.com/install-wordpress-on-ubuntu-16-04-lts-with-apache2-mariadb-and-php-7-1-support/
+There are so many more to thank.  
 
 Install prerequisites:
 1. This install uses bash.  If using windows use Bash on Windows: https://docs.microsoft.com/en-us/windows/wsl/install-win10.
