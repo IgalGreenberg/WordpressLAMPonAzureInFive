@@ -47,5 +47,5 @@ crontab -e
 sudo service cron restart
 ```
 
-Hopefully this script provided you with a VM on Azure on five minutes.  Do let me know if this works for you.
+Hopefully this script provided you with a VM on Azure in five minutes.  Do let me know if this works for you.
 In case you are using a custom DNS name this would be a good time to setup your DNS using your public IP (or a DNS Zone in Azure).  Once doing that do update the FQDN entry in /etc/apache2/sites-available/wordpress.conf.  Update the fqdn_name variable and run certbot again as above.
