@@ -17,14 +17,14 @@ git clone https://github.com/IgalGreenberg/OnAzureInFiveMinutes.git
 cd OnAzureInFiveMinutes/
 ```
 Edit LampWordPress.sh and enter strong values for:
-subscriptionname="Visual Studio Enterprise"
-location=westeurope # the azure zone you are working with
-rootname=installwp # the name of all the veriable
-dns_name="iab01" #increment me
-wordpressmysqlrootpassword=<mysql root password>
-wordpressmysqldbname=<wordpress mysql db name>
-wordpressmysqldbusername=<wordpress mysql user name>
-wordpressmysqldbpassword=<wordpress mysql db password>
+- subscriptionname="Visual Studio Enterprise"
+- location=westeurope # the azure zone you are working with
+- rootname=installwp # the name of all the veriable
+- dns_name="iab01" #increment me
+- wordpressmysqlrootpassword=<mysql root password>
+- wordpressmysqldbname=<wordpress mysql db name>
+- wordpressmysqldbusername=<wordpress mysql user name>
+- wordpressmysqldbpassword=<wordpress mysql db password>
 
 back in bash:
 ```bash
