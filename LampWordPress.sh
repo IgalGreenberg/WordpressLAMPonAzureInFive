@@ -19,9 +19,6 @@ az group create \
     --location $location \
     --subscription $subscriptionid
 
-az group delete \
-    --name $resource_group_name -y
-
 [ -f ./cloud-init-web-server.yml ] && rm ./cloud-init-web-server.yml
 cat >> ./cloud-init-web-server.yml <<EOF
 #cloud-config
