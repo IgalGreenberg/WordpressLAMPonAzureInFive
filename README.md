@@ -35,9 +35,9 @@ You now have a LAMP server with Wordpress on Azure!
 You can check the install by reviewing /var/log/cloud-init-output.log
 
 If you need an SSL certificate for your new server:
-back in bash:
 ```bash
 publicip=$(az vm list-ip-addresses -n $vm_name --query [0].virtualMachine.network.publicIpAddresses[0].ipAddress -o tsv)
+# one can check the install by examining /var/log/cloud-init-output.log
 echo "sudo certbot --apache -m \"admin@$fqdn_name\" -d \"$fqdn_name\""
 ssh azureuser@$fqdn_name
 # run the echo command on the remote server
