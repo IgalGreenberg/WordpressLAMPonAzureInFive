@@ -15,7 +15,7 @@ Launch bash:
 ```bash
 az login
 git clone https://github.com/IgalGreenberg/WordpressLAMPonAzureInFive.git
-cd OnAzureInFiveMinutes/
+cd WordpressLAMPonAzureInFive/
 ```
 Edit LampWordPress.sh and enter strong values for:
 - subscriptionname="Visual Studio Enterprise"
@@ -27,7 +27,6 @@ Edit LampWordPress.sh and enter strong values for:
 - wordpressmysqldbusername=<wordpress mysql user name>
 - wordpressmysqldbpassword=<wordpress mysql db password>
 
-back in bash:
 ```bash
 sh LampWordPress.sh
 ```
