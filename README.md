@@ -9,6 +9,7 @@ There are so many more to thank.
 Install prerequisites:
 1. This install uses bash.  If using windows use Bash on Windows: https://docs.microsoft.com/en-us/windows/wsl/install-win10.
 2. Azure cli: Install the Azure cli api: https://docs.microsoft.com/en-us/cli/azure/install-azure-cli
+3. Generate SSH keys on your bash prorile.
 
 Install wordpress on lamp:
 Launch bash:
