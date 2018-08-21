@@ -11,8 +11,7 @@ Install prerequisites:
 2. Azure cli: Install the Azure cli api: https://docs.microsoft.com/en-us/cli/azure/install-azure-cli
 3. Generate SSH keys on your bash prorile.
 
-Install wordpress on lamp:
-Launch bash:
+To install wordpress on lamp on Azure in less than five minutes fire up bash:
 ```bash
 az login
 git clone https://github.com/IgalGreenberg/WordpressLAMPonAzureInFive.git
